@@ -109,6 +109,7 @@ jq-1.6
 `dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y`
 `yum install snapd`
 error in installing snapd
+```
 [root@f8f51c4ddc27 rpmbuild]# yum install snapd --skip-broken --nobest
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -132,6 +133,7 @@ Skip  1 Package
 
 Nothing to do.
 Complete!
+```
 
 ## OWASP Zap - 2.11.1
 unable to install snapd
